@@ -251,6 +251,8 @@ AFINN generally produced the largest numerical values because it assigns weighte
 
 The sentiment scores were visualized to compare the four lexicons across the three Disneyland branches.
 
+![Sentiment Score Comparison](images/sentiment_scores.png)
+
 ### 🔎 Main Observation
 
 Although the numerical values vary between lexicons, the overall sentiment remains positive across all three branches.
@@ -278,6 +280,8 @@ Emotion classification was performed separately for California, Hong Kong, and P
 
 ## 📊 Emotion Comparison
 
+![Emotion Comparison](images/emotion_comparison.png)
+
 The results indicate that **anticipation, joy, and trust** were the dominant emotions across the Disneyland branches.
 
 Anticipation was particularly prominent, which is reasonable because visitors often describe their excitement before and during their Disneyland experience.
@@ -289,6 +293,8 @@ Negative emotions such as anger, disgust, sadness, and fear appeared considerabl
 ---
 
 ## 📊 Emotion Percentage
+
+![Emotion Percentage](images/emotion_percentage.png)
 
 The percentage analysis provides a clearer comparison because the total number of emotion-related words may differ between branches.
 
@@ -325,6 +331,8 @@ The most frequent positive words included:
 - `love`
 - `amazing`
 
+![Top Positive Words](images/top_positive_words.png)
+
 The high frequency of words such as **"great", "good", "fun", "love", and "amazing"** indicates that visitors frequently described their Disneyland experiences in favourable terms.
 
 The word **"fun"** is particularly relevant because Disneyland is primarily an entertainment destination, while words such as **"love"** and **"amazing"** suggest strong positive emotional reactions.
@@ -345,6 +353,8 @@ The most frequent negative words included:
 - `missed`
 - `rude`
 - `tired`
+
+![Top Negative Words](images/top_negative_words.png)
 
 The most frequently occurring negative word was **"expensive"**, suggesting that cost was an important concern among some visitors.
 
@@ -373,6 +383,8 @@ A Term-Document Matrix was then constructed to calculate word frequencies.
 ---
 
 ## ☁️ Word Cloud
+
+![Word Cloud](images/wordcloud.png)
 
 The word cloud provides a visual representation of frequently occurring words.
 
