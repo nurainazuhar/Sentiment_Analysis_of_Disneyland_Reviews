@@ -30,7 +30,6 @@
 - [📝 Discussion](#-discussion)
 - [🏁 Conclusion](#-conclusion)
 - [📁 Project Files](#-project-files)
-- [▶️ How to Run](#️-how-to-run)
 - [📚 References](#-references)
 
 ---
@@ -278,9 +277,11 @@ Emotion classification was performed separately for California, Hong Kong, and P
 
 ---
 
-## 📊 Emotion Comparison
+## 📊 Emotion Percentage Comparison 
 
 ![Emotion Comparison](images/emotion_comparison.png)
+
+The percentage analysis provides a clearer comparison because the total number of emotion-related words may differ between branches.
 
 The results indicate that **anticipation, joy, and trust** were the dominant emotions across the Disneyland branches.
 
@@ -289,14 +290,6 @@ Anticipation was particularly prominent, which is reasonable because visitors of
 Joy was also one of the strongest emotions, reflecting enjoyment of rides, attractions, entertainment, and the overall Disneyland atmosphere.
 
 Negative emotions such as anger, disgust, sadness, and fear appeared considerably less frequently.
-
----
-
-## 📊 Emotion Percentage
-
-![Emotion Percentage](images/emotion_percentage.png)
-
-The percentage analysis provides a clearer comparison because the total number of emotion-related words may differ between branches.
 
 Across the three branches:
 
@@ -499,10 +492,6 @@ Therefore, the analysis demonstrates how sentiment analysis and text mining can 
 │
 ├── 📄 README.md
 │
-├── 📜 Task3_Sentiment_Analysis.R
-│
-├── 📊 DisneylandReviews.csv
-│
 └── 📁 images
     ├── sentiment_scores.png
     ├── emotion_comparison.png
@@ -511,60 +500,6 @@ Therefore, the analysis demonstrates how sentiment analysis and text mining can 
     ├── top_negative_words.png
     └── wordcloud.png
 ```
-
----
-
-# ▶️ How to Run
-
-### 1. Clone the repository
-
-```bash
-git clone YOUR_REPOSITORY_LINK
-```
-
-### 2. Open the R script
-
-Open:
-
-```
-Task3_Sentiment_Analysis.R
-```
-
-in RStudio.
-
-### 3. Place the dataset in the working directory
-
-Make sure:
-
-```
-DisneylandReviews.csv
-```
-
-is located in the same directory as the R script.
-
-### 4. Install required packages
-
-If the packages are not already installed:
-
-```r
-install.packages(c(
-  "readr",
-  "dplyr",
-  "ggplot2",
-  "syuzhet",
-  "tidytext",
-  "tm",
-  "wordcloud",
-  "RColorBrewer",
-  "wordcloud2",
-  "textstem",
-  "tidyr"
-))
-```
-
-### 5. Run the analysis
-
-Run the R script from beginning to end to reproduce the sentiment scores, emotion analysis, word-frequency analysis, and visualizations.
 
 ---
 
