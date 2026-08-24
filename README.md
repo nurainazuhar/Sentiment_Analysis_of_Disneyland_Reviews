@@ -495,7 +495,6 @@ Therefore, the analysis demonstrates how sentiment analysis and text mining can 
 └── 📁 images
     ├── sentiment_scores.png
     ├── emotion_comparison.png
-    ├── emotion_percentage.png
     ├── top_positive_words.png
     ├── top_negative_words.png
     └── wordcloud.png
